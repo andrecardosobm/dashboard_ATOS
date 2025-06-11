@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 st.title("📊 Dashboard de Vendas por Filial")
 
 # Logo no topo da sidebar
-logo = Image.open("c:/Users/andre/Desktop/Nova pasta/Images.jpg")
+logo = Image.open("Images.jpg")
 st.sidebar.image(logo, use_container_width=True)
 
 # Função para conectar ao banco e carregar os dados
