@@ -1,5 +1,6 @@
 streamlit
 pandas
-pyodbc
 plotly
 Pillow
+psycopg2-binary
+sqlalchemy
