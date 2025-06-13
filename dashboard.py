@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 st.title("📊 Dashboard de Vendas por Filial")
 
 # Logo no topo da sidebar
-logo = Image.open("C:/Users/Andre Filho/Desktop/atos_capital_logo.jpg")  # ajuste o caminho se necessário
+logo = Image.open("images.jpg")
 st.sidebar.image(logo, use_container_width=True)
 
 # Função para carregar dados
