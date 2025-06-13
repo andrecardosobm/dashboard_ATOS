@@ -16,11 +16,13 @@ st.sidebar.image(logo, use_container_width=True)
 @st.cache_data
 def carregar_dados():
     conn_str = (
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
-        f"SERVER=aquidaba.infonet.com.br;"
-        f"DATABASE=dbproinfo;"
-        f"UID=leituraVendas;"
-        f"PWD=KRphDP65BM"
+        f"DRIVER={ODBC Driver 18 for SQL Server};"
+        "SERVER=aquidaba.infonet.com.br;"
+        "DATABASE=dbproinfo;"Add commentMore actions
+        "UID=leituraVendas;"
+        "PWD=KRphDP65BM;"
+        "Encrypt=yes;"
+        "TrustServerCertificate=yes;"
 )
 
     conn = pyodbc.connect(conn_str)
